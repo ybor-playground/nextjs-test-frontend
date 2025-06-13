@@ -4,3 +4,12 @@ metadata:
   name: nextjs-test-frontend
 spec:
   config: {}
+  networking:
+    ingress:
+      hostnames:
+        - nobody.alisamji.com
+      certificate:
+        externalSecret:
+          format: pkcs12
+          secretName: dummy-cert-36-pkcs12
+          secretStore: alitestbyokv

@@ -17,3 +17,5 @@ spec:
         headers:
           - name: X-Source-Token
             value: NotVerySecretToken
+          - name: X-Forwarded-Host
+            value: nobody.alisamji.com

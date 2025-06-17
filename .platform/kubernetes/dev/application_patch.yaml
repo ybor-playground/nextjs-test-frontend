@@ -13,3 +13,7 @@ spec:
           format: pkcs12
           secretName: dummy-cert-36-pkcs12
           secretStore: alitestbyokv
+      originRequestRestriction:
+        headers:
+          - name: X-Source-Token
+            value: NotVerySecretToken
